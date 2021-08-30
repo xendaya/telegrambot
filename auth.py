@@ -1,3 +1,5 @@
+# API is setup for Host 3000, please make sure to change
+
 from bot.helper.telegram_helper.message_utils import sendMessage
 from bot import AUTHORIZED_CHATS, SUDO_USERS, dispatcher, DB_URI
 from telegram.ext import CommandHandler
